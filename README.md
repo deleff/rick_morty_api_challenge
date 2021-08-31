@@ -25,6 +25,10 @@ Internet to get the values from the Rick and Morty API
 
 5. Include a UI with Pickle Rick? Everybody loves Pickle Rick
 
+6. Use a lighter-weight container. Ubuntu is way too large for a job like this
+
+7. Don't run the container as root
+
 ## Basic CI process:
 1. Create a new branch
 2. Gated-check, must pass unit tests and helm linters before it can be merged
